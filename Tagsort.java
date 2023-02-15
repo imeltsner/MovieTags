@@ -21,7 +21,7 @@ public class Tagsort {
                 }
                 
                 c++;
-                if (c > 10000) {
+                if (c > 1000) {
                     break;
                 }
             }
