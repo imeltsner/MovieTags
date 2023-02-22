@@ -1,4 +1,4 @@
-/*
+/**
  * A class to hold a movie tag and a count
  * @author Isaac Meltsner
  */
