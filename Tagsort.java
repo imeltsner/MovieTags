@@ -26,8 +26,9 @@ public class Tagsort {
                     if (!seenTags.contains(tag)) { //if tag hasn't been seen add to lists
                         seenTags.add(tag);
                         Category movie = new Category(tag);
+                        Category movie1 = new Category(tag);
                         categories.add(movie);
-                        sortedCategories.add(movie);
+                        sortedCategories.add(movie1);
                     } else { //if tag has been seen increment counts
                         categories.get(seenTags.indexOf(tag)).addOne();
                         sortedCategories.get(seenTags.indexOf(tag)).addOne();
