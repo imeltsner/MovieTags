@@ -1,3 +1,7 @@
+/*
+ * A class to hold a movie tag and a count
+ * @author Isaac Meltsner
+ */
 public class Category {
     String tag = new String();
     int count;
